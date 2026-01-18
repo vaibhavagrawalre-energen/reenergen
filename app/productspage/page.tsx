@@ -366,7 +366,7 @@ export default function ProductsPage() {
                           {product.category}
                         </span>
                       </div>
-                      
+                    </div>   
                 
 
                     {/* Product Details */}
