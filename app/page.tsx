@@ -39,8 +39,8 @@ export default function HomePage() {
 
       <UseCasesSection />
 
-      {/* Our Projects Section */}
-      <ProjectsSection t={t} /> 
+      {/* Our Projects Section 
+      <ProjectsSection t={t} />*/} 
 
       {/* Benefits Section */}
       <BenefitsSection t={t} /> 
