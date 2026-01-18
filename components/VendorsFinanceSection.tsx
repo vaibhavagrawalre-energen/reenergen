@@ -17,6 +17,7 @@ export default function ClientsSection() {
 
   const clients = [
     { logo: "/brands/waaree.png" },
+    { logo: "/brands/tata.jpg" },
   ]
 
   const banks = [
