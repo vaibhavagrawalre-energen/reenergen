@@ -81,7 +81,7 @@ export default function TestimonialsSection({
     },
   ]
 
-  const testimonials = propTestimonials || defaultTestimonials*/
+  const testimonials = propTestimonials || defaultTestimonials
 
   /* ------------------------ PROGRESS BAR ------------------------ */
 
