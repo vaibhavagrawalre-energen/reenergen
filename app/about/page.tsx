@@ -1,11 +1,20 @@
 "use client";
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useLanguage } from "@/lib/language-context"
 import { Phone, MessageCircle, Mail, ArrowRight,Building2,Handshake,BarChart3,Wrench,CheckCircle2, CheckCircle, Award, Users,Sparkles, Zap, Shield, Clock, TrendingUp, Sun, Leaf, DollarSign } from "lucide-react"
 
 export default function AboutPage() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
+  const [scrollY, setScrollY] = useState(0)
+  useEffect(() => {
+  const handleScroll = () => {
+    setScrollY(window.scrollY)
+  }
+
+  window.addEventListener("scroll", handleScroll)
+  return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
   const { language } = useLanguage()
   const isEn = language === "en"
 
