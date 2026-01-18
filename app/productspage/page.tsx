@@ -367,12 +367,7 @@ export default function ProductsPage() {
                         </span>
                       </div>
                       
-                      {/* Price Badge */}
-                      <div className="absolute top-4 right-4 px-4 py-2 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-emerald-200 transform transition-all duration-300 group-hover:scale-105 z-10">
-                        <div className="text-xs text-slate-600 font-medium">{isEn ? "Starting from" : "से शुरू"}</div>
-                        <div className="text-lg font-bold text-emerald-600">{product.price}</div>
-                      </div>
-                    </div>
+                
 
                     {/* Product Details */}
                     <div className="p-6 lg:p-7 flex flex-col flex-1">
