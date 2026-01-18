@@ -5,6 +5,16 @@ import { useLanguage } from "@/lib/language-context"
 
 export default function ClientsSection() {
   const { t } = useLanguage()
+
+  const safeT = t ?? {
+    vendorsFinance: {
+      title: "Our Technology Partners",
+      subtitle: "Trusted brands we work with",
+      financeTitle: "Bank Financing Available",
+      financeSubtitle: "Easy EMI & loan options through leading banks",
+    },
+  }
+
   const clients = [
     { logo: "/brands/waaree.png" },
   ]
@@ -24,10 +34,10 @@ export default function ClientsSection() {
         {/* Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
-            {t.vendorsFinance.title}
+            {safeT.vendorsFinance.title}
           </h2>
           <p className="mt-2 text-slate-600">
-            {t.vendorsFinance.subtitle}
+            {safeT.vendorsFinance.subtitle}
           </p>
         </div>
 
@@ -42,11 +52,7 @@ export default function ClientsSection() {
                 <img
                   src={client.logo}
                   alt="Client logo"
-                  className={`object-contain ${
-                    index === 1 || index === 2
-                      ? "max-w-[220px] max-h-[120px]" // Waaree & Novasys bigger
-                      : "max-w-[200px] max-h-[110px]" // Tata
-                  }`}
+                  className="object-contain max-w-[200px] max-h-[110px]"
                 />
               </div>
             </div>
@@ -56,10 +62,10 @@ export default function ClientsSection() {
         {/* BANK FINANCE SECTION */}
         <div className="text-center mb-4">
           <h2 className="text-lg font-semibold text-gray-800 tracking-wide uppercase">
-            {t.vendorsFinance.financeTitle}
+            {safeT.vendorsFinance.financeTitle}
           </h2>
           <p className="text-sm text-gray-600 mt-1">
-            {t.vendorsFinance.financeSubtitle}
+            {safeT.vendorsFinance.financeSubtitle}
           </p>
         </div>
 
