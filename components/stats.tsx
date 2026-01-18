@@ -46,11 +46,11 @@ export default function StatsMover() {
   const isEn = language === "en";
 
   const stats = [
-    { value: "511", label: isEn ? "Satisfied Clients" : "संतुष्ट ग्राहक", icon: Zap, color: "emerald" },
-    { value: "223 MW", label: isEn ? "Successful Projects" : "सफल प्रोजेक्ट", icon: TrendingUp, color: "blue" },
-    { value: "300+", label: isEn ? "Panels Installed" : "पैनल स्थापित", icon: Package, color: "purple" },
-    { value: "22 MW", label: isEn ? "Upcoming Projects" : "आगामी प्रोजेक्ट", icon: Rocket, color: "orange" },
-    { value: "13 / 3", label: isEn ? "States & Countries" : "राज्य और देश", icon: Globe, color: "teal" },
+    { value: "100+", label: isEn ? "Satisfied Clients" : "संतुष्ट ग्राहक", icon: Zap, color: "emerald" },
+    { value: "50+", label: isEn ? "Successful Projects" : "सफल प्रोजेक्ट", icon: TrendingUp, color: "blue" },
+    { value: "3000+", label: isEn ? "Panels Installed" : "पैनल स्थापित", icon: Package, color: "purple" },
+    { value: "2 MW", label: isEn ? "Upcoming Projects" : "आगामी प्रोजेक्ट", icon: Rocket, color: "orange" },
+
   ];
 
   return (
