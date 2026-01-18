@@ -6,9 +6,7 @@ import { useLanguage } from "@/lib/language-context"
 export default function ClientsSection() {
   const { t } = useLanguage()
   const clients = [
-    { logo: "/brands/tata.jpg" },
     { logo: "/brands/waaree.png" },
-    { logo: "/brands/novasys.png" },
   ]
 
   const banks = [
