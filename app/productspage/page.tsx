@@ -10,9 +10,8 @@ const productsEn = [
     id: "residential-3kw",
     name: "3 kW Residential Solar System",
     slug: "3kw-residential-solar",
-    short: "Perfect small rooftop array for modest homes. Powers lights, fans, and occasional AC use with 8-10 panels.",
+    short: "Perfect small rooftop array for modest homes. Powers lights, fans, and occasional AC use with 6 panels.",
     description: "Complete on-grid solar system ideal for small homes with basic electricity needs. Eligible for government subsidy.",
-    price: "₹2.3-2.5 Lakh",
     images: [
       "/products/3kw-system-1.jpg",
       "/products/3kw-system-2.jpg",
@@ -20,27 +19,26 @@ const productsEn = [
     ],
     category: "residential",
     features: [
-      "8-10 solar panels",
+      "6 solar panels",
       "12-15 kWh daily output",
       "360-450 kWh monthly generation",
-      "₹78,000 government subsidy",
-      "1-2 days installation",
+      "₹1,08,000 government subsidy",
+      "1-3 days installation",
       "Powers modest home appliances"
     ],
     specifications: {
-      modules: "8-10 panels (560-580W each)",
+      modules: "6 panels (535-580W each)",
       inverter: "3 kW On-grid Inverter",
       output: "360-450 kWh/month",
-      panels: "8-10 panels"
+      panels: "6 panels"
     }
   },
   {
     id: "residential-5kw",
     name: "5 kW Residential Solar System",
     slug: "5kw-residential-solar",
-    short: "Mid-size residential array for larger homes with more appliances. Generates 20-25 kWh daily with 12-16 panels.",
+    short: "Mid-size residential array for larger homes with more appliances. Generates 20-25 kWh daily with 9 panels.",
     description: "Comprehensive solar solution for medium to large homes with higher energy consumption. Qualifies for government subsidy.",
-    price: "₹3.5-4.5 Lakh",
     images: [
       "/products/5k.jpeg",
       "/products/5k2.jpeg",
@@ -48,18 +46,18 @@ const productsEn = [
     ],
     category: "residential",
     features: [
-      "12-16 solar panels",
+      "9 solar panels",
       "20-25 kWh daily output",
       "600-750 kWh monthly generation",
-      "₹78,000 subsidy eligible",
+      "₹1,08,000 subsidy eligible",
       "1-3 days installation",
       "Supports multiple appliances"
     ],
     specifications: {
-      modules: "12-16 panels (630-750W each)",
+      modules: "9 panels (560-580W each)",
       inverter: "5 kW On-grid Inverter",
       output: "600-750 kWh/month",
-      panels: "12-16 panels"
+      panels: "9 panels"
     }
   },
   {
@@ -68,7 +66,6 @@ const productsEn = [
     slug: "10kw-residential-solar",
     short: "Large home or small business three-phase system. Perfect for villas and office complexes with high energy demands.",
     description: "High-capacity solar installation for large residences or small commercial establishments with significant power requirements.",
-    price: "₹4.5-6.5 Lakh",
     images: [
       "/products/10kw-system-1.jpg",
       "/products/10kw-system-2.jpg",
@@ -76,131 +73,19 @@ const productsEn = [
     ],
     category: "residential",
     features: [
-      "30-35 solar panels",
+      "18 solar panels",
       "35-40 kWh daily output",
       "1,000-1,200 kWh monthly",
       "Three-phase connection",
-      "₹78,000 subsidy cap",
-      "2-3 days installation"
+      "5-7 days installation"
     ],
     specifications: {
-      modules: "30-35× 1000W+ panels",
-      inverter: "10 kW / Three 3.3 kW Inverters",
-      output: "1,000-1,200 kWh/month",
-      panels: "30-35 panels"
+      modules: "18× 580+ panels",
+      inverter: "10 kW / 10 kW Inverters",
+      output: "1,200-1,500 kWh/month",
+      panels: "16-20 panels"
     }
-  },
-  {
-    id: "waaree-radiance-3.2kw",
-    name: "Waaree Radiance 3.2 kW Kit",
-    slug: "waaree-3.2kw-kit",
-    short: "Premium plug-and-play solar kit with TopCon bifacial technology. MNRE-approved with all hardware included.",
-    description: "Factory-direct Waaree solar kit with premium bifacial panels and complete balance-of-system components for quick installation.",
-    price: "₹1,78,124",
-    images: [
-      "/products/waaree-3.2kw-1.jpg",
-      "/products/waaree-3.2kw-2.jpg"
-    ],
-    category: "residential",
-    features: [
-      "8× 560-580W bifacial modules",
-      "12-15 kWh daily output",
-      "MNRE-approved (PM Surya Ghar)",
-      "Ships within 72 hours",
-      "Delivery in 7-21 days",
-      "Complete hardware kit included"
-    ],
-    specifications: {
-      modules: "8× 560-580W Bifacial TopCon",
-      inverter: "3.2 kW Inverter",
-      output: "360-450 kWh/month",
-      panels: "8 bifacial panels"
-    }
-  },
-  {
-    id: "waaree-radiance-4.5kw",
-    name: "Waaree Radiance 4.5 kW Kit",
-    slug: "waaree-4.5kw-kit",
-    short: "Mid-range Waaree kit with high-efficiency 750W bifacial modules. Ideal for medium homes and small shops.",
-    description: "Premium solar kit with advanced TopCon technology and all necessary components including AC/DC junction boxes and safety equipment.",
-    price: "₹2,18,436",
-    images: [
-      "/products/waaree-4.5kw-1.jpg",
-      "/products/waaree-4.5kw-2.jpg",
-      "/products/waaree-4.5kw-3.jpg"
-    ],
-    category: "residential",
-    features: [
-      "6-8× 750W bifacial modules",
-      "18-22 kWh daily output",
-      "≈600 kWh monthly generation",
-      "Factory-direct pricing",
-      "Quick plug-and-play setup",
-      "Warranty included"
-    ],
-    specifications: {
-      modules: "6-8× 750W Bifacial TopCon",
-      inverter: "4.5 kW Inverter",
-      output: "~600 kWh/month",
-      panels: "6-8 bifacial panels"
-    }
-  },
-  {
-    id: "waaree-radiance-5kw",
-    name: "Waaree Radiance 5.0 kW Kit",
-    slug: "waaree-5kw-kit",
-    short: "High-capacity Waaree kit for larger homes and small offices. Complete with earthing kit and lightning protection.",
-    description: "Comprehensive Waaree solar solution with premium bifacial panels and complete safety equipment for reliable operation.",
-    price: "₹2,53,124",
-    images: [
-      "/products/waaree-5kw-1.jpg",
-      "/products/waaree-5kw-2.jpg"
-    ],
-    category: "residential",
-    features: [
-      "8× 630W bifacial modules",
-      "20-25 kWh daily output",
-      "MNRE-approved system",
-      "All hardware included",
-      "Lightning arrestor included",
-      "Professional warranty"
-    ],
-    specifications: {
-      modules: "8× 630W Bifacial TopCon",
-      inverter: "5.0 kW Inverter",
-      output: "600-750 kWh/month",
-      panels: "8 bifacial panels"
-    }
-  },
-  {
-    id: "commercial-112.5kw",
-    name: "112.5 kW Commercial Cold Storage System",
-    slug: "112kw-commercial-solar",
-    short: "Large-scale industrial installation for warehouses and cold storage facilities. High-capacity three-phase system.",
-    description: "Industrial-grade solar rooftop system with IP66-rated inverters designed for commercial operations and heavy-duty applications.",
-    price: "₹60-80 Lakh",
-    images: [
-      "/products/commercial-112kw-1.jpg",
-      "/products/commercial-112kw-2.jpg",
-      "/products/commercial-112kw-3.jpg",
-      "/products/commercial-112kw-4.jpg"
-    ],
-    category: "commercial",
-    features: [
-      "400-500 kWh daily output",
-      "12,000-15,000 kWh monthly",
-      "IP66-rated inverters",
-      "100 kW string inverters",
-      "Professional site survey",
-      "Extended commissioning support"
-    ],
-    specifications: {
-      modules: "Hundreds of high-capacity panels",
-      inverter: "100 kW String Inverters (150 kW DC)",
-      output: "12,000-15,000 kWh/month",
-      installation: "2-4 weeks + 1 week setup"
-    }
-  }
+  } 
 ]
 
 const productsHi = [
@@ -208,9 +93,8 @@ const productsHi = [
     id: "residential-3kw",
     name: "3 kW आवासीय सोलर सिस्टम",
     slug: "3kw-residential-solar",
-    short: "छोटे घरों के लिए आदर्श। 8-10 पैनलों के साथ लाइट, पंखे और एसी चलाएं।",
+    short: "छोटे घरों के लिए आदर्श। 6 पैनलों के साथ लाइट, पंखे और एसी चलाएं।",
     description: "छोटे घरों के लिए पूर्ण ऑन-ग्रिड सोलर सिस्टम। सरकारी सब्सिडी उपलब्ध।",
-    price: "₹2.3-2.5 लाख",
     images: [
       "/products/3kw-system-1.jpg",
       "/products/3kw-system-2.jpg",
@@ -218,27 +102,26 @@ const productsHi = [
     ],
     category: "residential",
     features: [
-      "8-10 सोलर पैनल",
+      "6 सोलर पैनल",
       "12-15 यूनिट दैनिक उत्पादन",
       "360-450 यूनिट मासिक उत्पादन",
-      "₹78,000 सरकारी सब्सिडी",
-      "1-2 दिन में स्थापना",
+      "₹1,08,000 सरकारी सब्सिडी",
+      "1-3 दिन में स्थापना",
       "घरेलू उपकरणों के लिए उपयुक्त"
     ],
     specifications: {
-      modules: "8-10 पैनल (560-580W प्रत्येक)",
+      modules: "6 पैनल (535-580W प्रत्येक)",
       inverter: "3 kW ऑन-ग्रिड इन्वर्टर",
       output: "360-450 यूनिट/माह",
-      panels: "8-10 पैनल"
+      panels: "6 पैनल"
     }
   },
   {
     id: "residential-5kw",
     name: "5 kW आवासीय सोलर सिस्टम",
     slug: "5kw-residential-solar",
-    short: "मध्यम घरों के लिए। 12-16 पैनलों के साथ 20-25 यूनिट दैनिक बिजली।",
+    short: "मध्यम घरों के लिए। 9-10 पैनलों के साथ 20-25 यूनिट दैनिक बिजली।",
     description: "अधिक बिजली खपत वाले मध्यम से बड़े घरों के लिए व्यापक सोलर समाधान। सरकारी सब्सिडी के लिए योग्य।",
-    price: "₹3.5-4.5 लाख",
     images: [
       "/products/5kw-system-1.jpg",
       "/products/5kw-system-2.jpg",
@@ -246,18 +129,18 @@ const productsHi = [
     ],
     category: "residential",
     features: [
-      "12-16 सोलर पैनल",
+      "9 सोलर पैनल",
       "20-25 यूनिट दैनिक उत्पादन",
       "600-750 यूनिट मासिक उत्पादन",
-      "₹78,000 सब्सिडी पात्र",
+      "₹1,08,000 सब्सिडी पात्र",
       "1-3 दिन में स्थापना",
       "कई उपकरणों का समर्थन"
     ],
     specifications: {
-      modules: "12-16 पैनल (630-750W प्रत्येक)",
+      modules: "9 पैनल (560-580W प्रत्येक)",
       inverter: "5 kW ऑन-ग्रिड इन्वर्टर",
       output: "600-750 यूनिट/माह",
-      panels: "12-16 पैनल"
+      panels: "9 पैनल"
     }
   },
   {
@@ -266,7 +149,6 @@ const productsHi = [
     slug: "10kw-residential-solar",
     short: "बड़े घर या छोटे व्यवसाय के लिए थ्री-फेज सिस्टम। विला और कार्यालयों के लिए उत्तम।",
     description: "महत्वपूर्ण बिजली आवश्यकताओं वाले बड़े आवासों या छोटे वाणिज्यिक प्रतिष्ठानों के लिए उच्च क्षमता वाला सोलर इंस्टॉलेशन।",
-    price: "₹4.5-6.5 लाख",
     images: [
       "/products/10kw-system-1.jpg",
       "/products/10kw-system-2.jpg",
@@ -274,129 +156,17 @@ const productsHi = [
     ],
     category: "residential",
     features: [
-      "30-35 सोलर पैनल",
+      "18 सोलर पैनल",
       "35-40 यूनिट दैनिक उत्पादन",
       "1,000-1,200 यूनिट मासिक",
       "थ्री-फेज कनेक्शन",
-      "₹78,000 सब्सिडी कैप",
-      "2-3 दिन में स्थापना"
+      "5-7 दिन में स्थापना"
     ],
     specifications: {
-      modules: "30-35× 1000W+ पैनल",
-      inverter: "10 kW / तीन 3.3 kW इन्वर्टर",
-      output: "1,000-1,200 यूनिट/माह",
-      panels: "30-35 पैनल"
-    }
-  },
-  {
-    id: "waaree-radiance-3.2kw",
-    name: "वारी रेडियंस 3.2 kW किट",
-    slug: "waaree-3.2kw-kit",
-    short: "TopCon बाइफेशियल तकनीक के साथ प्रीमियम प्लग-एंड-प्ले सोलर किट। MNRE-अनुमोदित।",
-    description: "प्रीमियम बाइफेशियल पैनल और त्वरित स्थापना के लिए पूर्ण बैलेंस-ऑफ-सिस्टम घटकों के साथ फैक्ट्री-डायरेक्ट वारी सोलर किट।",
-    price: "₹1,78,124",
-    images: [
-      "/products/waaree-3.2kw-1.jpg",
-      "/products/waaree-3.2kw-2.jpg"
-    ],
-    category: "residential",
-    features: [
-      "8× 560-580W बाइफेशियल मॉड्यूल",
-      "12-15 यूनिट दैनिक उत्पादन",
-      "MNRE-अनुमोदित (पीएम सूर्य घर)",
-      "72 घंटों के भीतर शिपिंग",
-      "7-21 दिनों में डिलीवरी",
-      "पूर्ण हार्डवेयर किट शामिल"
-    ],
-    specifications: {
-      modules: "8× 560-580W बाइफेशियल TopCon",
-      inverter: "3.2 kW इन्वर्टर",
-      output: "360-450 यूनिट/माह",
-      panels: "8 बाइफेशियल पैनल"
-    }
-  },
-  {
-    id: "waaree-radiance-4.5kw",
-    name: "वारी रेडियंस 4.5 kW किट",
-    slug: "waaree-4.5kw-kit",
-    short: "उच्च दक्षता 750W बाइफेशियल मॉड्यूल के साथ मिड-रेंज वारी किट। मध्यम घरों के लिए आदर्श।",
-    description: "उन्नत TopCon तकनीक और AC/DC जंक्शन बॉक्स और सुरक्षा उपकरणों सहित सभी आवश्यक घटकों के साथ प्रीमियम सोलर किट।",
-    price: "₹2,18,436",
-    images: [
-      "/products/waaree-4.5kw-1.jpg",
-      "/products/waaree-4.5kw-2.jpg",
-      "/products/waaree-4.5kw-3.jpg"
-    ],
-    category: "residential",
-    features: [
-      "6-8× 750W बाइफेशियल मॉड्यूल",
-      "18-22 यूनिट दैनिक उत्पादन",
-      "≈600 यूनिट मासिक उत्पादन",
-      "फैक्ट्री-डायरेक्ट मूल्य निर्धारण",
-      "त्वरित प्लग-एंड-प्ले सेटअप",
-      "वारंटी शामिल"
-    ],
-    specifications: {
-      modules: "6-8× 750W बाइफेशियल TopCon",
-      inverter: "4.5 kW इन्वर्टर",
-      output: "~600 यूनिट/माह",
-      panels: "6-8 बाइफेशियल पैनल"
-    }
-  },
-  {
-    id: "waaree-radiance-5kw",
-    name: "वारी रेडियंस 5.0 kW किट",
-    slug: "waaree-5kw-kit",
-    short: "बड़े घरों और छोटे कार्यालयों के लिए उच्च क्षमता वाली वारी किट। अर्थिंग किट और लाइटनिंग प्रोटेक्शन के साथ।",
-    description: "विश्वसनीय संचालन के लिए प्रीमियम बाइफेशियल पैनल और पूर्ण सुरक्षा उपकरणों के साथ व्यापक वारी सोलर समाधान।",
-    price: "₹2,53,124",
-    images: [
-      "/products/waaree-5kw-1.jpg",
-      "/products/waaree-5kw-2.jpg"
-    ],
-    category: "residential",
-    features: [
-      "8× 630W बाइफेशियल मॉड्यूल",
-      "20-25 यूनिट दैनिक उत्पादन",
-      "MNRE-अनुमोदित सिस्टम",
-      "सभी हार्डवेयर शामिल",
-      "लाइटनिंग अरेस्टर शामिल",
-      "प्रोफेशनल वारंटी"
-    ],
-    specifications: {
-      modules: "8× 630W बाइफेशियल TopCon",
-      inverter: "5.0 kW इन्वर्टर",
-      output: "600-750 यूनिट/माह",
-      panels: "8 बाइफेशियल पैनल"
-    }
-  },
-  {
-    id: "commercial-112.5kw",
-    name: "112.5 kW कमर्शियल कोल्ड स्टोरेज सिस्टम",
-    slug: "112kw-commercial-solar",
-    short: "गोदामों और कोल्ड स्टोरेज के लिए बड़े पैमाने पर औद्योगिक स्थापना। उच्च क्षमता वाला थ्री-फेज सिस्टम।",
-    description: "वाणिज्यिक संचालन और भारी-भरकम अनुप्रयोगों के लिए डिज़ाइन किए गए IP66-रेटेड इनवर्टर के साथ औद्योगिक-ग्रेड सोलर रूफटॉप सिस्टम।",
-    price: "₹60-80 लाख",
-    images: [
-      "/products/commercial-112kw-1.jpg",
-      "/products/commercial-112kw-2.jpg",
-      "/products/commercial-112kw-3.jpg",
-      "/products/commercial-112kw-4.jpg"
-    ],
-    category: "commercial",
-    features: [
-      "400-500 यूनिट दैनिक उत्पादन",
-      "12,000-15,000 यूनिट मासिक",
-      "IP66-रेटेड इन्वर्टर",
-      "100 kW स्ट्रिंग इन्वर्टर",
-      "प्रोफेशनल साइट सर्वेक्षण",
-      "विस्तारित कमीशनिंग समर्थन"
-    ],
-    specifications: {
-      modules: "सैकड़ों उच्च क्षमता वाले पैनल",
-      inverter: "100 kW स्ट्रिंग इन्वर्टर (150 kW DC)",
-      output: "12,000-15,000 यूनिट/माह",
-      installation: "2-4 सप्ताह + 1 सप्ताह सेटअप"
+      modules: "18× 580W+ पैनल",
+      inverter: "10 kW / 10 kW इन्वर्टर",
+      output: "1,200-1,500 यूनिट/माह",
+      panels: "16-20 पैनल"
     }
   }
 ]
