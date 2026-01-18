@@ -47,8 +47,8 @@ export default function HomePage() {
 
       <VendorsFinanceSection />
 
-      /*{/* Testimonials */}
-      <TestimonialsSection t={t} />*/
+      
+      {/*<TestimonialsSection t={t} />*/}
     </main>
   )
 }
