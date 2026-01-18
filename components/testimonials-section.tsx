@@ -55,7 +55,7 @@ export default function TestimonialsSection({
   /* ----------------------- TESTIMONIAL DATA ------------------------ */
 
   const defaultTestimonials: Testimonial[] = [
-    {
+    /*{
       author: "Rajesh Kumar",
       role: "Homeowner",
       location: "Raipur",
@@ -81,7 +81,7 @@ export default function TestimonialsSection({
     },
   ]
 
-  const testimonials = propTestimonials || defaultTestimonials
+  const testimonials = propTestimonials || defaultTestimonials*/
 
   /* ------------------------ PROGRESS BAR ------------------------ */
 
