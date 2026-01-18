@@ -317,7 +317,7 @@ export default function TestimonialsSection({
             </div>
 
             {/* ---------------- RIGHT: CTA CARD ---------------- */}
-            <div className="order-1 lg:order-2 lg:col-span-4 lg:translate-x-[55px] lg:translate-y-[15px]">
+            <div className="order-1 lg:order-2 lg:col-span-4 lg:translate-x-55 lg:translate-y-15">
               <div className="bg-gradient-to-br from-emerald-500 to-teal-600 text-white rounded-2xl p-8 lg:p-10 shadow-2xl lg:sticky lg:top-24 border border-emerald-400/30">
                 
                 <div className="mb-8">
