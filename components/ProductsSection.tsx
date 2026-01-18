@@ -30,7 +30,6 @@ export default function ProductsSection() {
             image="/residential-solar-panel-system-for-home.jpg"
             title={t.products.residential.name}
             description={t.products.residential.description}
-            price={t.products.residential.price}
             isHovered={hoveredCard === 0}
             onHover={() => setHoveredCard(0)}
             onLeave={() => setHoveredCard(null)}
@@ -42,7 +41,6 @@ export default function ProductsSection() {
             image="/commercial-solar-panels-on-business-building.jpg"
             title={t.products.commercial.name}
             description={t.products.commercial.description}
-            price={t.products.commercial.price}
             isHovered={hoveredCard === 1}
             onHover={() => setHoveredCard(1)}
             onLeave={() => setHoveredCard(null)}
@@ -54,7 +52,6 @@ export default function ProductsSection() {
             image="/home-battery-storage-system-with-solar.jpg"
             title={t.products.battery.name}
             description={t.products.battery.description}
-            price={t.products.battery.price}
             isHovered={hoveredCard === 2}
             onHover={() => setHoveredCard(2)}
             onLeave={() => setHoveredCard(null)}
